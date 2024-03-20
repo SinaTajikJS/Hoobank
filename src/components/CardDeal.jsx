@@ -16,7 +16,7 @@ const CardDeal = () => {
         </p>
         <Button className="mt-5" />
       </div>
-      <img className="flex-1 w-full" src={card} alt="card" />
+      <img className="flex-1 min-w-0" src={card} alt="card" />
     </section>
   );
 };
